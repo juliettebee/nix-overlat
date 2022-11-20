@@ -1,1 +1,4 @@
-let a = 1
+self: super:
+{
+  battery-buddy = self.callPackage ./battery-buddy.nix {};
+}
