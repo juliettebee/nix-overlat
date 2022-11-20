@@ -1,5 +1,3 @@
-{ pkgs ? import ./nixpkgs {} }:
-
 let
   battery-buddy = pkgs.callPackage ./battery-buddy.nix {};
   overlays = [
