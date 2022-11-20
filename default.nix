@@ -1,4 +1,1 @@
-self: super:
-{
-  battery-buddy = self.callPackage ./battery-buddy.nix {};
-}
+import <nixpkgs> { overlays = [ (import ./overlay.nix) ]; }
