@@ -1,6 +1,3 @@
-let
-  pkgs = import <nixpkgs> {};
-in
-self: super: rec {
+self: super: {
   battery-buddy = super.callPackage ./battery-buddy {};
 }
